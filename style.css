@@ -1,0 +1,299 @@
+.main-section {
+    width: 90vw;
+    height: 65vh;
+}
+
+.main-section-container {
+    margin-left: 10vw;
+    margin-top: 10vw;
+}
+
+.main-section-display {
+    font-size: 60px;
+    color: #5e5e5e;
+}
+
+.main-section-display span {
+    color: #0f172a;
+}
+
+.secondary-section {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+}
+
+.section-header {
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+
+.section-header-underline {
+    height: 8px;
+    width: 130px;
+    margin-left: 3px;
+    border-radius: 30px;
+    background-color: #0f172a;
+    margin-bottom: 40px;
+}
+
+.secondary-section > hr {
+    margin-bottom: 20px;
+}
+
+.section-tech-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-tech-box {
+      display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 16px;
+    width: 40vw;
+}
+
+.tech-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-box > img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.tech-box > p {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.secondary-section-button {
+    display: block;
+    margin: 20px auto;
+    padding: 13px 20px;
+    border-radius: 20px;
+    border: 1px solid #0f172a;
+    background-color: #0f172a;
+    cursor: pointer;
+}
+
+.secondary-section-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.secondary-section-button:hover {
+    background-color: white;
+}
+
+.secondary-section-button:hover  a {
+    color: #0f172a;
+}
+
+.section-project-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 60px;
+  background-color: #0f172a;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 20px 40px #0f172a;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-project-container:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 30px 60px #0f172a;
+}
+
+.project-info-container {
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project-tags span {
+  background-color: white;
+  color: #0f172a;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.project-info h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+
+.project-info p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 17px;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+.project-info button {
+  align-self: flex-start;
+  margin-top: 10px;
+  background-color: white;
+  color: #0f172a;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.project-info button:hover {
+  background-color: #0f172a;
+  color: white;
+  outline: 2px solid white;
+}
+
+.project-img-container {
+  width: 280px;
+  height: 180px;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.project-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.section-project-container-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  border-radius: 16px;
+  border: 2px solid #0f172a;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  padding: 32px;
+  box-shadow: 0 20px 40px #0f172a;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-project-container-sec:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 30px 60px #0f172a;
+}
+
+.project-info-container-sec {
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.project-tags-sec {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project-tags-sec span {
+  background-color: #0f172a;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.project-info-sec h3 {
+  color: #0f172a;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.project-info-sec p {
+  color: #0f172a;
+  font-size: 17px;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+.project-info-sec button {
+  align-self: flex-start;
+  margin-top: 10px;
+  background-color: #0f172a;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.project-info-sec button:hover {
+  background-color: white;
+  color: #0f172a;
+  outline: 2px solid #0f172a;
+}
+
+.project-img-container {
+  width: 280px;
+  height: 180px;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.project-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-btn {
+  display: inline-block;
+  background-color: white;
+  color: #0f172a;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.section-project-container:hover .project-btn {
+  background-color: #0f172a;
+  color: white;
+  outline: 2px solid white;
+}

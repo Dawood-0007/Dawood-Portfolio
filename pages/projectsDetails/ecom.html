@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../main.css">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../projectPages.css">
+    <link rel="stylesheet" href="../../responsiveness.css">
+    <title>Dawood's ECOM Project</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-main" id="navMenu">
+            <li class="nav-elements">
+                <div class="nav-group">
+                    <a href="/index.html">Home</a>
+                    <div class="nav-underline-hover"></div>
+                </div>
+            </li>
+            <li class="nav-elements">
+                <div class="nav-group">
+                    <a href="/pages/about.html">About</a>
+                    <div class="nav-underline-hover"></div>
+                </div>
+            </li>
+            <li class="nav-elements">
+                <div class="nav-group">
+                    <a href="/pages/project.html">Projects</a>
+                    <div class="nav-underline"></div>
+                </div>
+            </li>
+            <li class="nav-elements">
+                <div class="nav-group">
+                    <a href="/pages/skill.html">Skills</a>
+                    <div class="nav-underline-hover"></div>
+                </div>
+            </li>
+            <li class="nav-elements">
+                <div class="nav-group">
+                    <a href="/pages/contact.html">Contact</a>
+                    <div class="nav-underline-hover"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+    </nav>
+
+    <div class="container">
+
+        <h1>ECOM – Ecommerce Site</h1>
+        <p class="subtitle">
+            Full-Stack E-Commerce Platform built with Next.js, Firebase & Stripe
+        </p>
+
+        <h2>Project Overview</h2>
+        <p>
+            ECOM is a full-stack, production-ready e-commerce application designed
+            to provide a secure and scalable online shopping experience. The project
+            includes user authentication, product management, wishlist and cart
+            functionality, and seamless online payments using Stripe.
+        </p>
+
+        <p>
+            The application is divided into two independent Next.js apps:
+            an Admin Panel for management tasks and a customer-facing E-Commerce Store
+            for shopping and checkout.
+        </p>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>User authentication using Firebase (Email/Password & Google)</li>
+            <li>Admin panel to manage products, users, and orders</li>
+            <li>Customer-friendly storefront with product listings</li>
+            <li>Wishlist and cart management</li>
+            <li>Secure online payments with Stripe</li>
+            <li>Firestore database for real-time data handling</li>
+            <li>Scalable and modular Next.js architecture</li>
+        </ul>
+
+        <h2>Tech Stack</h2>
+        <div class="tech-stack">
+            <span class="tech">Next.js</span>
+            <span class="tech">Firebase</span>
+            <span class="tech">Firestore</span>
+            <span class="tech">Stripe</span>
+            <span class="tech">JavaScript</span>
+            <span class="tech">HTML</span>
+            <span class="tech">CSS</span>
+        </div>
+
+        <h2>Firebase Integration</h2>
+        <p>
+            Firebase is used for authentication and database management. It handles
+            user sign-up and login, stores product data, and manages orders securely.
+            Firebase Authentication and Firestore Database are fully integrated into
+            both the admin panel and the customer application.
+        </p>
+
+        <h2>Stripe Integration</h2>
+        <p>
+            Stripe is implemented in the E-Commerce Store to handle secure online
+            payments. Environment variables are used to safely manage Stripe’s
+            publishable and secret keys, ensuring secure transactions during checkout.
+        </p>
+
+        <h2>Contribution & Collaboration</h2>
+        <p>
+            This project is open for contributions. Developers are welcome to improve
+            the UI, add new features, fix bugs, or optimize performance by submitting
+            pull requests through GitHub.
+        </p>
+
+        <div class="links">
+            <a href="https://github.com/Dawood-0007/ecom-store" target="_blank">
+                View GitHub Repository
+            </a>
+        </div>
+
+        <div class="note">
+            If you find this project useful, consider giving it a ⭐ on GitHub.
+            Happy Coding!
+        </div>
+
+    </div>
+
+    <button class="secondary-section-button">
+        <a href="/pages/project.html">View Other Projects</a>
+    </button>
+
+    <footer class="portfolio-footer">
+        <div class="footer-main">
+            <h3>Dawood</h3>
+            <p>Full Stack Web Developer & CS Student</p>
+
+            <div class="footer-links">
+                <a href="/pages/project.html">Projects</a>
+                <a href="/pages/about.html">About</a>
+                <a href="/pages/contact.html">Contact</a>
+                <a href="/pages/skill.html">Skills</a>
+            </div>
+
+            <p class="footer-copy">
+                © 2025 Dawood. All rights reserved.
+            </p>
+        </div>
+
+        <div class="footer-quick-contact">
+            <h4>Quick Contact</h4>
+            <p>Leave your email and I’ll reach out</p>
+
+            <form action="https://formspree.io/f/mldqyjyj" method="POST" class="quick-contact-form" id="quickForm">
+                <input type="email" name="email" placeholder="Your email address" required>
+                <button type="submit" aria-label="Send email">
+                    ✉
+                </button>
+            </form>
+            <p id="form-status"></p>
+        </div>
+    </footer>
+
+    <script src="../../script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsiveness.css">
+    <title>Dawood's Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-main" id="navMenu">
+            <li class="nav-elements">
+                <div class="nav-group">
+                    <a href="/index.html">Home</a>
+                    <div class="nav-underline"></div>
+                </div>
+            </li>
+            <li class="nav-elements">
+                <div class="nav-group">
+                    <a href="/pages/about.html">About</a>
+                    <div class="nav-underline-hover"></div>
+                </div>
+            </li>
+            <li class="nav-elements">
+                <div class="nav-group">
+                    <a href="/pages/project.html">Projects</a>
+                    <div class="nav-underline-hover"></div>
+                </div>
+            </li>
+            <li class="nav-elements">
+                <div class="nav-group">
+                    <a href="/pages/skill.html">Skills</a>
+                    <div class="nav-underline-hover"></div>
+                </div>
+            </li>
+            <li class="nav-elements">
+                <div class="nav-group">
+                    <a href="/pages/contact.html">Contact</a>
+                    <div class="nav-underline-hover"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+    </nav>
+
+    <section class="main-section">
+        <div class="main-section-container">
+            <h1 class="main-section-display">
+                Hello, I am <br>
+                <span>Dawood Khatri</span> <br>
+                and I am a<br>
+                <span id="switch-effect">Full Stack Developer</span>
+            </h1>
+        </div>
+    </section>
+
+    <section class="secondary-section">
+        <h1 class="section-header">Tech Stack</h1>
+        <div class="section-header-underline"></div>
+        <!-- <hr > -->
+        <div class="section-tech-display">
+            <div class="sub-tech-box">
+                <div class="tech-box">
+                    <img src="./public/images/nodejs.png" alt="Nodejs Logo">
+                    <p>Node.js</p>
+                </div>
+                <div class="tech-box">
+                    <img src="./public/images/react.png" alt="React Logo">
+                    <p>React</p>
+                </div>
+            </div>
+            <div class="sub-tech-box">
+                <div class="tech-box">
+                <img src="./public/images/nextjs.png" alt="Nextjs Logo">
+                <p>Next.js</p>
+            </div>
+            <div class="tech-box">
+                    <img src="./public/images/python.jpeg" alt="Python" Logo">
+                    <p>Python</p>
+                </div>
+            </div>
+        </div>
+        <button class="secondary-section-button">
+            <a href="/pages/skill.html">View More</a>
+        </button>
+    </section>
+
+    <section class="secondary-section">
+        <h1 class="section-header">Projects</h1>
+        <div class="section-header-underline"></div>
+
+        <a class="project-link" href="./pages/projectsDetails/ecom.html">
+            <div class="section-project-container">
+                <div class="project-info-container">
+                    <div class="project-tags">
+                        <span>Web Development</span>
+                        <span>Database</span>
+                        <span>Authentication</span>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>E-Commerce Store — ECOM</h3>
+                        <p>An e-commerce store built using Next.js and Firebase with secure authentication.</p>
+                        <button>View Details →</button>
+                    </div>
+                </div>
+
+                <div class="project-img-container">
+                    <img src="./public/ECOM PIC.PNG" alt="Project preview">
+                </div>
+            </div>
+        </a>
+
+        <a class="project-link" href="./pages/projectsDetails/noteink.html">
+            <div class="section-project-container-sec">
+                <div class="project-info-container-sec">
+                    <div class="project-tags-sec">
+                        <span>Web Development</span>
+                        <span>App Development</span>
+                        <span>Deployed Live</span>
+                    </div>
+
+                    <div class="project-info-sec">
+                        <h3>AI Note App — NoteInk</h3>
+                        <p>Cross-platform AI-powered note-taking application built with Next.js, Expo & Gemini AI.</p>
+                        <button>View Details →</button>
+                    </div>
+                </div>
+
+                <div class="project-img-container">
+                    <img src="./public/NoteInk.png" alt="Project preview">
+                </div>
+            </div>
+        </a>
+
+        <a class="project-link" href="./pages/projectsDetails/kalyptica.html">
+            <div class="section-project-container">
+                <div class="project-info-container">
+                    <div class="project-tags">
+                        <span>Web Development</span>
+                        <span>Database</span>
+                        <span>Authentication</span>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Kalyptica - News Site</h3>
+                        <p>Full-stack global news platform built with Next.js, Node.js & SQL.</p>
+                        <button>View Details →</button>
+                    </div>
+                </div>
+
+                <div class="project-img-container">
+                    <img src="./public/Kalyptica.png" alt="Project preview">
+                </div>
+            </div>
+        </a>
+
+        <button class="secondary-section-button">
+            <a href="/pages/project.html">View More</a>
+        </button>
+    </section>
+
+    <footer class="portfolio-footer">
+        <div class="footer-main">
+            <h3>Dawood</h3>
+            <p>Full Stack Web Developer & CS Student</p>
+
+            <div class="footer-links">
+                <a href="/pages/project.html">Projects</a>
+                <a href="/pages/about.html">About</a>
+                <a href="/pages/contact.html">Contact</a>
+                <a href="/pages/skill.html">Skills</a>
+            </div>
+
+            <p class="footer-copy">
+                © 2025 Dawood. All rights reserved.
+            </p>
+        </div>
+
+        <div class="footer-quick-contact">
+            <h4>Quick Contact</h4>
+            <p>Leave your email and I’ll reach out</p>
+
+            <form action="https://formspree.io/f/mldqyjyj" method="POST" class="quick-contact-form" id="quickForm">
+                <input type="email" name="email" placeholder="Your email address" required>
+                <button type="submit" aria-label="Send email">
+                    ✉
+                </button>
+            </form>
+            <p id="form-status"></p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

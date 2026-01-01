@@ -1,0 +1,189 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0px;
+}
+
+.nav-elements {
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+}
+
+.nav-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-group > a {
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    transition: font-size 0.5s ease-out;
+}
+
+.nav-underline {
+    height: 5px;
+    width: 30px;
+    background-color: #0f172a;
+    border-radius: 15px;
+}
+
+.nav-underline-hover {
+    height: 5px;
+    width: 30px;
+    background-color: #0f172a;
+    border-radius: 15px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, width 0.5s ease-in-out;
+}
+
+.nav-group > a:hover ~ .nav-underline-hover {
+    opacity: 1;
+}
+
+.nav-group > a:hover {
+    font-size: x-large;
+}
+
+.portfolio-footer {
+  background-color: #0f172a;
+  color: white;
+  padding: 20px 20px 20px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-quick-contact h4 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.footer-quick-contact p {
+  font-size: 14px;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 14px;
+}
+
+.quick-contact-form {
+  display: flex;
+  flex-direction: row;
+  max-width: 320px;
+}
+
+.quick-contact-form input {
+  flex: 1;
+  margin: 0;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 12px 14px;
+  color: white;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quick-contact-form input::placeholder {
+  color: rgba(255,255,255,0.5);
+}
+
+.quick-contact-form button {
+  padding: 0 16px;
+  background-color: white;
+  color: #0f172a;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  margin: 0;
+}
+
+.quick-contact-form button:hover {
+  background-color: #0f172a;
+  color: white;
+  outline: 2px solid white;
+}
+
+.footer-main {
+  text-align: center;
+}
+
+.footer-main h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.footer-main p {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 24px 0;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+}
+
+.footer-links a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: white;
+  left: 0;
+  bottom: -4px;
+  transition: width 0.3s ease;
+}
+
+.footer-links a:hover::after {
+  width: 100%;
+}
+
+.footer-copy {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 30px;
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .quick-contact-form {
+    margin: auto;
+  }
+}
+
+
