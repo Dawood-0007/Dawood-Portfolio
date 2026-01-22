@@ -119,6 +119,15 @@
     align-self: center;
   }
 
+  .project-tags span {
+    font-size: 15px !important;
+  }
+
+  .project-btns a button {
+    font-size: 13px !important;
+    padding: 11px !important;
+  }
+
   .project-img-container {
     width: 100%;
     height: 200px;
