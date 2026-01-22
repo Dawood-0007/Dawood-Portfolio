@@ -46,7 +46,6 @@
     flex-direction: column; 
     gap: 24px;
     align-items: flex-start;
-    padding: 20px;
     width: 80vw;
     margin: auto;
 }
