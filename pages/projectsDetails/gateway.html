@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="../../style.css">
     <link rel="stylesheet" href="../../projectPages.css">
     <link rel="stylesheet" href="../../responsiveness.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link rel="icon" type="image/*" href="../../preview-temp.jpeg" />
-    <title>Dawood Khatri - ECOM Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <title>Dawood Khatri - API Gateway with ML</title>
 </head>
 
 <body>
@@ -55,97 +55,80 @@
 
     <div class="container">
 
-    <h1>Kalyptica – News Site</h1>
-    <p class="subtitle">
-        Full-stack global news platform built with Next.js, Node.js & SQL
-    </p>
+        <h1>API Gateway with ML</h1>
+        <p class="subtitle">
+            Intelligent API Gateway with Anomaly Detection using Isolation Forest
+        </p>
 
-    <h2>Project Overview</h2>
-    <p>
-        Kalyptica is a modern news platform designed to deliver news from around the
-        globe through a clean and accessible interface. The project consists of a
-        Next.js frontend for readers and a dedicated backend with an admin panel
-        for managing news content.
-    </p>
+        <h2>Project Overview</h2>
+        <p>
+            API Gateway with ML is a robust, scalable, and intelligent API management system that acts as a single entry point for multiple backend services. 
+            It incorporates Machine Learning (Isolation Forest) to detect anomalies and potential threats in real-time API traffic.
+        </p>
 
-    <p>
-        The system follows a clear separation of concerns, with a frontend web
-        application for users and a Node.js-powered backend along with an admin
-        dashboard for content management.
-    </p>
+        <p>
+            The project includes a modern frontend built with Next.js, a Node.js backend, a Python-based ML microservice, and PostgreSQL as the primary database. 
+            It supports both Dockerized and non-Docker deployments for maximum flexibility.
+        </p>
 
-    <h2>Key Features</h2>
-    <ul>
-        <li>Global news aggregation and presentation</li>
-        <li>Clean and responsive user interface</li>
-        <li>Dedicated admin panel for managing news content</li>
-        <li>Backend API for handling news data</li>
-        <li>Live deployed frontend, backend, and admin panel</li>
-        <li>Scalable architecture with frontend-backend separation</li>
-    </ul>
+        <h2>Key Features</h2>
+        <ul>
+            <li>Centralized API routing and management</li>
+            <li>Real-time anomaly detection using Isolation Forest ML model</li>
+            <li>Rate limiting, authentication, and logging</li>
+            <li>Separate Python ML microservice for high-performance inference</li>
+            <li>Support for Docker and non-Docker environments</li>
+            <li>PostgreSQL database for storing logs, metrics, and user data</li>
+            <li>Scalable microservices architecture</li>
+            <li>Comprehensive monitoring and analytics</li>
+        </ul>
 
-    <h2>Tech Stack</h2>
-    <div class="tech-stack">
-        <span class="tech">Next.js</span>
-        <span class="tech">Node.js</span>
-        <span class="tech">EJS</span>
-        <span class="tech">SQL Database</span>
-        <span class="tech">JavaScript</span>
-        <span class="tech">HTML</span>
-        <span class="tech">CSS</span>
+        <h2>Tech Stack</h2>
+        <div class="tech-stack">
+            <span class="tech">Next.js</span>
+            <span class="tech">Node.js</span>
+            <span class="tech">Python</span>
+            <span class="tech">PostgreSQL</span>
+            <span class="tech">Isolation Forest</span>
+            <span class="tech">Docker</span>
+            <span class="tech">Express.js</span>
+            <span class="tech">TypeScript</span>
+        </div>
+
+        <h2>Architecture</h2>
+        <p>
+            The system is designed with modularity in mind:
+        </p>
+        <ul>
+            <li><strong>Frontend:</strong> Next.js for admin dashboard and monitoring interface</li>
+            <li><strong>API Gateway:</strong> Node.js + Express.js handles routing, authentication, and request validation</li>
+            <li><strong>ML Service:</strong> Python FastAPI service running Isolation Forest model for anomaly detection</li>
+            <li><strong>Database:</strong> PostgreSQL for persistent storage</li>
+        </ul>
+
+        <h2>Deployment Options</h2>
+        <ul>
+            <li>Docker Compose (recommended for production-like setup)</li>
+            <li>Non-Docker local development setup</li>
+        </ul>
+
+        <h2>Contribution & Collaboration</h2>
+        <p>
+            This project is open for contributions. Feel free to improve the ML model, enhance the dashboard, add new features, or optimize performance by submitting pull requests.
+        </p>
+
+        <div class="links">
+            <a href="https://github.com/Dawood-0007/api_gateway_with_ml" target="_blank">
+                View GitHub Repository
+            </a>
+        </div>
+
+        <div class="note">
+            If you find this project useful, consider giving it a ⭐ on GitHub.
+            Happy Coding!
+        </div>
+
     </div>
-
-    <h2>Frontend</h2>
-    <p>
-        The frontend is built using Next.js and provides a fast, SEO-friendly,
-        and user-focused experience. It consumes data from the backend server
-        through configured API endpoints and is deployed live for public access.
-    </p>
-
-    <h2>Backend & Admin Panel</h2>
-    <p>
-        The backend is developed using Node.js, with an admin panel built using
-        EJS templating. The admin panel allows authorized users to manage and
-        publish news content efficiently, while the server handles data operations
-        and API requests.
-    </p>
-
-    <h2>Live Links</h2>
-    <div class="links">
-        <a href="https://kalyptica.vercel.app" target="_blank">
-            Live News Website
-        </a>
-        <a href="https://kalyptica-admin.vercel.app" target="_blank">
-            Live Admin Panel
-        </a>
-        <a href="https://kalypticaserver.vercel.app" target="_blank">
-            Live Backend Server
-        </a>
-    </div>
-
-    <h2>Contribution & Collaboration</h2>
-    <p>
-        Kalyptica is open to community contributions. Developers are encouraged
-        to contribute by improving features, enhancing UI, optimizing performance,
-        or extending backend capabilities through GitHub pull requests.
-    </p>
-
-    <div class="links">
-        <a href="https://github.com/Dawood-0007/Nextjs-News-Site-Frontend" target="_blank">
-            Frontend Repository
-        </a>
-        <a href="https://github.com/Dawood-0007/News-Site-Backend-And-Admin" target="_blank">
-            Backend & Admin Repository
-        </a>
-    </div>
-
-    <div class="note">
-        If you like this project or find it useful, feel free to contribute
-        and support it on GitHub.
-    </div>
-
-</div>
-
 
     <button class="secondary-section-button">
         <a href="../project.html">View Other Projects</a>
